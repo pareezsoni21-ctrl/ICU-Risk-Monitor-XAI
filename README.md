@@ -1,4 +1,4 @@
-CU Risk Prediction: An Interpretable Clinical Decision Support System
+ICU Risk Prediction: An Interpretable Clinical Decision Support System
 This repository contains a clinical decision support tool designed to predict patient mortality risk in Intensive Care Units (ICU). The primary objective is to move beyond "black-box" predictions by implementing Explainable AI (XAI) techniques, ensuring that clinicians can verify the reasoning behind each risk score.
 
 📂 Data Source
