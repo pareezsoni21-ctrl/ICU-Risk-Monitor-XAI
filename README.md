@@ -1,4 +1,5 @@
 # ICU Risk Prediction: Interpretable Clinical Decision Support System
+![Dashboard](dashboard.png)
 
 ## Overview
 This project focuses on building a clinical decision support system to predict in-hospital mortality risk for patients admitted to Intensive Care Units (ICUs). The system is designed with a strong emphasis on interpretability, ensuring that predictions are not only accurate but also explainable.
@@ -36,6 +37,8 @@ Two configurations were evaluated:
 The imbalanced nature of the dataset required special attention. By applying class weighting, the model became more sensitive to minority class cases (patients at risk of mortality), which is critical in medical applications.
 
 ## Model Performance
+![Result](result.png)
+
 The model was evaluated using accuracy, precision, recall, and F1-score, with particular focus on the mortality class due to class imbalance.
 
 | Model                          | Accuracy | F1-score (Mortality) | Recall (Mortality) |
